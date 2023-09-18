@@ -7,21 +7,33 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 8px;
 }
 
 .title {
+  margin-top: 0px;
+  margin-bottom: 8px;
   background: #e3f4ff;
+  padding: 8px;
+  font-size: 16px;
 }
 
 .content {
   background: #e3f4ff;
+  padding: 16px 8px;
+  margin-bottom: 8px;
 }
 
 .button-container {
+  text-align: center;
   background: #e3f4ff;
+  padding: 8px;
 }
 
 button {
+  display: block;
+  margin: 0 auto;/* 블럭요소로 만들었을때 가운데 정렬 하는법 기억하기*/
   background: white;
   border: 1px solid #eee;
+  padding: 8px 24px;
 }
